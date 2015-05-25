@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Skeeing;
+
+import java.util.List;
+
+/**
+ *
+ * @author vijay
+ */
+public class Point {
+    int value;
+
+    
+    boolean IsVisited;
+ List<Point> adjacent;
+    Point depestPoint;
+    int depestPointDeapth;
+    Point nextDeepestPoint;
+    int deapth=-1;
+    Point(int parseInt) {
+       this.value=parseInt;
+    }
+      public void  search(Point p)
+      {
+          
+      
+      
+      }
+}
